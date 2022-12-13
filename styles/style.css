@@ -2,19 +2,142 @@
 
 /* NAVIGATION */
 
+/* I couldn't get the full box to highlight on hover in time so only the text itself highlights on hover */
+
+#main-nav > ul {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+#main-nav > ul > li {
+    margin: 5%;
+    font-size: 13pt;
+}
+
+#main-nav > ul > li > a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#main-nav > ul > li > a:hover {
+    color: #333;
+}
+
+#main-nav > ul > li:hover {
+    background: white;
+}
 
 
 /* HEADER */
 
+#main-header {
+    background: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#main-header > h1 {
+    font-size: 36pt;
+}
+
+#main-header > h2 {
+    font-size: 24pt;
+}
+
 
 /* MAIN CONTENT */
 
+#main-content {
+    display: flex;
+    flex-direction: row;
+}
 
 /* MAIN */
 
+#main-content > main > figure {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 30px;
+    float: left;
+}
+
+#main-content > main > figure > cite > a {
+    color: black;
+    text-decoration: none;
+}
+
+#main-content > main > figure > cite > a:hover {
+    color: blue;
+}
+
+#main-content > main > p {
+    font-size: 12pt;
+}
 
 /* ASIDE */
 
+#main-content > aside {
+    margin: 30px;
+}
+
+#main-content > aside > h2 {
+    font-size: 20pt;
+    padding: 15px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+}
+
+#main-content > aside > ul > li {
+    padding: 15px;
+}
+
+#main-content > aside > ul > li > strong {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#main-content > aside > ul > li:nth-child(2n) {
+    background: #eee;
+}
+
 
 /* FOOTER */
+
+footer {
+    height: 180px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > nav > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer > nav > ul > li > a > img {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
+
+footer > p {
+    color: white;
+}
 

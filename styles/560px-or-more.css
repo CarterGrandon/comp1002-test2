@@ -1,0 +1,18 @@
+@media screen and (max-width: 560px) {
+    #main-content > main > figure {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: auto;
+        margin: 30px;
+        float: none;
+    }
+
+    #main-content > main {
+        margin: 10px;
+    }
+
+    #main-header > h2 {
+        display: none;
+    }
+}
